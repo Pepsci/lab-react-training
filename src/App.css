@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.idcard {
+  height: 150px;
+  width: auto;
+  margin: 2rem;
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+}
