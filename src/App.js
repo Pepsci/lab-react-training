@@ -3,6 +3,7 @@ import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import LikeButton from './components/LikeButton';
 
 function App() {
   return (
@@ -36,6 +37,11 @@ function App() {
       </div>
       <div className="boxcolor">
         <BoxColor r={128} g={255} b={0} />
+      </div>
+
+      <div className="LikeButton">
+        <LikeButton />
+        <LikeButton />
       </div>
     </div>
   );
